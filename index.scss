@@ -18,7 +18,7 @@ $grey: #4D4F62;
     border-radius: 8px;
     background-color: #FFFFFF;
     color: $grey;
-    @include box-shadow(0px, 4px, 4px, 0px, rgba(0,0,0,0.25));
+    @include box-shadow(0px, 15px, 30px, -11px, rgba(131,166,210,0.5));
 }
 
 @mixin box-mobile{
@@ -28,7 +28,7 @@ $grey: #4D4F62;
     border-radius: 8px;
     background-color: #FFFFFF;
     color: $grey;
-    @include box-shadow(0px, 4px, 4px, 0px, rgba(0,0,0,0.25));
+    @include box-shadow(0px, 15px, 30px, -11px, rgba(131,166,210,0.5));
 }
 
 html, body{
@@ -123,7 +123,7 @@ p{
 }
 
 .box:hover{
-    @include box-shadow(0px, 4px, 4px, 0px, rgba(0,0,0,0.5));
+    @include box-shadow(0px, 15px, 30px, -11px, rgba(131,166,210,1));
 }
 .tab1,.tab2,.tab3,.tab4{
     position: absolute;
